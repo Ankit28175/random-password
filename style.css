@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin: 0;
+
+}
+body
+{
+    background-color: darkblue;
+    color: white;
+    
+}
+.contaner{
+    margin: 10%;
+    background-color: darkblue;
+}
+img{
+    width: 20px;
+}
+.password-contaner{
+    width: 30%;
+    background-color: white;
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5% 0%;
+    border-radius: 10px;
+}
+#password{
+    padding: 9px;
+    width: 250px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+}
+button{
+    border-radius: 10px;
+    background-color: yellow;
+    border: 0;
+    font-size: 20px;
+    padding: 8px;
+}
